@@ -1,3 +1,69 @@
-body {
+/* #region header */
+.header {
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__top {
+  display: flex;
+}
+
+.header__bottom {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.header__bottom h1 {
+  font-size: 2rem;
   margin: 0;
 }
+
+/* #endregion */
+
+/* #region icon */
+.icon {
+
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__bottom {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.header__bottom h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* #endregion */
+
+/* #region footer */
+.footer {
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__bottom {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.header__bottom h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* #endregion */
