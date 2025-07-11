@@ -8,6 +8,13 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    >
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="./styles/main.scss"
@@ -17,18 +24,24 @@
   <body>
     <header class="header">
       <div class="header__top">
+
         <a href="#">
-          <img src="./images/logo.png" alt="Bose Logo" />
+          <img
+            src="./images/logo.png"
+            alt="bose-logo"
+          />
         </a>
-        <a href="#" class="icon icon--phone">
-          <img src="./images/icons/icon-phone-call.png" alt="Icon-Phone-call" />
-        </a>
-        <a href="#" class="icon icon--menu">
-          <img src="./images/icons/icon-burger-menu.png" alt="Icon-Burger-menu" />
-        </a>
+
+        <div class="header__icons">
+          <a href="#" class="icon icon--phone"></a>
+          <a href="#" class="icon icon--menu"></a>
+        </div>
       </div>
       <div class="header__bottom">
-        <h1>Your senses.Set free.</h1>
+        <h1 class="header__title">Your senses.
+          <br>
+          Set free.
+        </h1>
       </div>
 
     </header>

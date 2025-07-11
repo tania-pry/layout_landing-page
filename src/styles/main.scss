@@ -1,12 +1,41 @@
+/* #region page */
+html {
+  font-family: 'Manrope', sans-serif;
+  color: rgba(27, 33, 41, 1);
+  font-size: 16px;
+  line-height: 140%;
+}
+body {
+  margin: 0;
+}
+/* #endregion page */
+
+
 /* #region header */
 .header {
+  box-sizing: border-box;
+  padding: 40px 20px;
+  height: 100vh;
   background-image: url(../images/header-bg.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  position: relative;
+
 }
 
 .header__top {
   display: flex;
+  justify-content: space-between;
+  background-position: center;
+}
+.header__icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
 }
 
 .header__bottom {
@@ -23,13 +52,30 @@
 
 /* #region icon */
 .icon {
+  display: block;
+  height: 24px;
+  width: 24px;
 
+}
+.icon--phone {
+  background-image: url(../images/icons/icon-phone-call.png);
+}
+.icon--menu {
+  background-image: url(../images/icons/icon-burger-menu.png);
 }
 
 .header__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.header__title {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  font-style: bold;
 }
 
 .header__bottom {
@@ -59,11 +105,6 @@
 .header__bottom {
   text-align: center;
   margin-top: 1rem;
-}
-
-.header__bottom h1 {
-  font-size: 2rem;
-  margin: 0;
 }
 
 /* #endregion */
